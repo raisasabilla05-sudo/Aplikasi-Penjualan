@@ -80,7 +80,7 @@ WHERE nota.idnota=$P{id_nota}]]>
 			<staticText>
 				<reportElement x="191" y="0" width="100" height="20" uuid="4b817ddf-2620-4acc-8d7d-a08c96dd9f2f"/>
 				<textElement textAlignment="Center">
-					<font fontName="Arial" size="14" isBold="true"/>
+					<font fontName="Arial" size="16" isBold="true"/>
 				</textElement>
 				<text><![CDATA[NOTA]]></text>
 			</staticText>

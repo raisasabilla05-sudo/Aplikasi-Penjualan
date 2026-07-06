@@ -16,7 +16,10 @@ import Tampilan.PopupPelanggan;
 import Tampilan.PopupBarang;
 import java.util.HashMap;
 import javax.swing.JSpinner;
-
+/**
+ *
+ * @author raisaaa
+ */
 
 public class Nota extends javax.swing.JFrame {
     public String id, nama, jenis, telp, almt;
@@ -311,7 +314,7 @@ public void cetak(){
                         .addGap(18, 18, 18)
                         .addComponent(txtkdbrg, javax.swing.GroupLayout.PREFERRED_SIZE, 111, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(bcaribrg, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(bcaribrg))
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addComponent(btambah, javax.swing.GroupLayout.PREFERRED_SIZE, 238, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGroup(jPanel2Layout.createSequentialGroup()
@@ -478,7 +481,7 @@ public void cetak(){
                                         .addComponent(jLabel5)
                                         .addGap(18, 18, 18)
                                         .addComponent(jtgl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap(27, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(bsimpan)

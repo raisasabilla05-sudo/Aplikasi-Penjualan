@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 import koneksi.koneksi;
 /**
  *
- * @author raisa
+ * @author raisaaa
  */
 public class Login extends javax.swing.JFrame {
     private Connection conn = new koneksi().connect();
@@ -109,7 +109,7 @@ public class Login extends javax.swing.JFrame {
                 .addContainerGap(41, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 250, 550, 310));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 280, 550, 310));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/backgroundLogin.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 800));

@@ -132,6 +132,9 @@ FROM
 			<line>
 				<reportElement x="533" y="5" width="1" height="47" uuid="edefc7b4-57f3-4bf9-a7aa-fb49fb30c3db"/>
 			</line>
+			<line>
+				<reportElement x="5" y="64" width="533" height="1" uuid="f951b2c2-51c9-4407-b87d-fdc31941d798"/>
+			</line>
 		</band>
 	</detail>
 	<columnFooter>

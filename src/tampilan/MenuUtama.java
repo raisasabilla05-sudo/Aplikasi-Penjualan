@@ -15,7 +15,7 @@ import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.view.JasperViewer;
 /**
  *
- * @author raisa
+ * @author raisaaa
  */
 public class MenuUtama extends javax.swing.JFrame {
 
@@ -83,7 +83,7 @@ public class MenuUtama extends javax.swing.JFrame {
                 btnKeluarActionPerformed(evt);
             }
         });
-        getContentPane().add(btnKeluar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 10, -1, 30));
+        getContentPane().add(btnKeluar, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 10, -1, 30));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/gambar/backgroundLogin.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 720));
